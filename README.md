@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 해뜰노트
 
-## Getting Started
+- 해가 뜨는 곳에, 나의 이야기가 자란다.
+  <br />
+  or
+  <br />
+- "햇살을 담아, 나를 기록하다."
+- "햇살 위에 기록을 새기다."
 
-First, run the development server:
+##
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 기록 기능:
+  매일 아침 일어난 시간, 수행한 활동(운동, 독서 등), 기분 등을 기록할 수 있도록.
+  텍스트, 사진, 간단한 체크리스트 형식 지원.
+- 데이터 시각화:
+  주간/월간 미라클모닝 유지율을 그래프로 보여주기.
+  얼마나 꾸준히 실천했는지 퍼센트로 나타내기.
+- 리마인더 & 알림:
+  목표 시간에 기상하지 않으면 알림.
+  미라클모닝 활동을 기록하지 않으면 푸시 알림.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 커뮤니티 또는 공유 기능(선택 사항):
+  다른 사용자들과 기록 공유.
+  함께 도전할 수 있는 그룹 기능.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 게이미피케이션 요소:
+  연속 기록하면 배지/레벨 상승.
+  특정 목표 달성하면 보상(예: '10일 연속 성공' 배지).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Framework: Nextjs 15
+- Deploy: Cloudflare Pages
